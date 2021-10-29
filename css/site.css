@@ -20,7 +20,7 @@ for details on configuring this project to bundle and minify static web assets. 
 .topnav {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.93);
-    letter-spacing: 2px;
+    letter-spacing: 1.2px;
     font-size: 15px;
     font-family: Jost;
 }
@@ -157,11 +157,6 @@ for details on configuring this project to bundle and minify static web assets. 
             text-align: left;
         }
 }
-
-
-
-
-
 
 
 
