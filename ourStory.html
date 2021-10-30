@@ -19,8 +19,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,14 +33,16 @@
     <link rel="stylesheet" href="css/skeleton.css" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="gallery/css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="gallery/css/style.css"> <!-- Resource style -->
-    <script src="gallery/js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="gallery/css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="gallery/css/style.css">
+    <!-- Resource style -->
+    <script src="gallery/js/modernizr.js"></script>
+    <!-- Modernizr -->
     <script src="gallery/js/jquery-3.6.0.js"></script>
     <script src="gallery/js/jquery-ui.js"></script>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet'
-        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/example.css">
     <link rel="stylesheet" href="css/stroll.css">
@@ -53,73 +54,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="js/mixitup.min.js"></script>
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
 
 </head>
 
 
 <body>
 
-    <div id="myNav-new" class="overlay-new">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-            <a href="projects.html">All Cases</a>
-            <a href="logos.html">Logos</a>
-            <a href="books.html">Books</a>
-            <a href="brochures.html">Brochures</a>
-            <a href="stationary.html">Stationary</a>
-            <a href="variety.html">Variety</a>
-            <a href="kids.html">Kids</a>
-            <a href="posters.html">Posters</a>
-            <a href="web.html">Web</a>
-        </div>
-    </div>
+    <header-component></header-component>
 
 
-    <header>
-        <div class="position-fixed w-100" style="z-index:2000">
-
-            <div class="topnav" id="myTopnav">
-
-                <a href="index.html" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Home"
-                    id="home" style="padding-top:11px; padding-bottom: 13px">
-                    <img class="z-logo-icon" src="" alt="Zonart logo" />
-                </a>
-
-                <a href="ourStory.html" id="about">About</a>
-
-                <a href="services.html"  id="services">Services</a>
-
-                <div class="dropdown">
-                    <a class="dropbtn" href="projects.html" id="projects">
-                        Projects <i class="fa fa-caret-down fa-xs"></i>
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="brochures.html">Brochures</a>
-                        <a href="logos.html">Logos</a>
-                        <a href="books.html">Books</a>
-                        <a href="posters.html">Posters</a>
-                        <a href="kids.html">Kids</a>
-                        <a href="web.html">Web</a>
-                        <a href="stationary.html">Stationary</a>
-                        <a href="variety.html">Variety</a>
-                    </div>
-                </div>
-
-                <a href="contact.html" id="contact">Contact</a>
-
-                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-
-                <a class="nav-right explore float-right" onclick="openNav()" title="Explore" data-toggle="tooltip"
-                    data-placement="bottom" data-container="body"><img class="compass" alt="explore" /></a>
-
-            </div>
-        </div>
-
-    </header>
-
-
-    <button id="myBtn" title="Go to top" style="color:lightgray" data-toggle="tooltip" data-placement="bottom"
-        data-container="body">
+    <button id="myBtn" title="Go to top" style="color:lightgray" data-toggle="tooltip" data-placement="bottom" data-container="body">
         <i class="material-icons">arrow_upward</i>
     </button>
 
@@ -127,210 +73,156 @@
 
     <!--content-->
 
-<div class="bgimg-4">
-    <div class="caption">
-        <span class="border">WHO WE ARE</span>
+    <div class="bgimg-4">
+        <div class="caption">
+            <span class="border">WHO WE ARE</span>
+        </div>
     </div>
-</div>
 
-<div class="ml-5 mr-5 mt-5 mb-5" style="color:black; text-align:center; text-align: justify center">
+    <div class="ml-5 mr-5 mt-5 mb-5" style="color:black; text-align:center; text-align: justify center">
 
-    <p style="line-height:30px; padding-right:50px; padding-left:50px; padding-bottom:50px; padding-top:20px; color:black">YORGOVA is design agency that offers innovative, impressive and quality solutions for your business. Since our beginning about 15 years ago, we work with many clients from Europe and USA. Explore our world of ideas born with creativity and passion.</p>
-
-</div>
-
-<div class="bgimg-5">
-    <div class="caption">
-        <span class="border">WHY CHOOSE US</span>
-    </div>
-</div>
-
-<div style="position:relative;">
-    <div style="color:black;background-color:white;text-align:center;padding:50px 50px;text-align: justify center; font-variant-caps: all-petite-caps">
-
-        <i class="fas fa-check fa-xs"></i>
-        <p class="mt-1" style="font-size: 25px">
-            Creativity
-        </p><br />
-
-        <i class="fas fa-check fa-xs"></i>
-        <p class="mt-1" style="font-size: 25px">
-            Effectiveness
-        </p><br />
-
-        <i class="fas fa-check fa-xs"></i>
-        <p class="mt-1 mb-0" style="font-size: 25px">
-            High-quality
-        </p><br />
+        <p style="line-height:30px; padding-right:50px; padding-left:50px; padding-bottom:50px; padding-top:20px; color:black">
+            YORGOVA is design agency that offers innovative, impressive and quality solutions for your business. Since our beginning about 15 years ago, we work with many clients from Europe and USA. Explore our world of ideas born with creativity and passion.</p>
 
     </div>
-</div>
 
-<div class="bgimg-6">
-    <div class="caption">
-        <span class="border">LET'S CREATE SOMETHING AMAZING TOGETHER!</span>
+    <div class="bgimg-5">
+        <div class="caption">
+            <span class="border">WHY CHOOSE US</span>
+        </div>
     </div>
-</div>
 
-<div class="position-relative">
-    <div style="color:#ddd;background-color:white;text-align:center;padding:50px 100px;text-align: justify;">
+    <div style="position:relative;">
+        <div style="color:black;background-color:white;text-align:center;padding:50px 50px;text-align: justify center; font-variant-caps: all-petite-caps">
 
-        <div class="row">
+            <i class="fas fa-check fa-xs"></i>
+            <p class="mt-1" style="font-size: 25px">
+                Creativity
+            </p><br />
 
-            <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-4 mr-4 mt-5 mb-5" style="font-weight: 500">
-                <img src="Images/png/logo.png" style="color:white; width:40px; border-bottom:3px solid black; padding-bottom:12px" alt="Alternate Text" /><br />
-                <div class="mt-3 mb-3" style="font-family:Jost; letter-spacing:1px; color:black; font-weight:900">LOGO</div>
-                <p style="font-size: 14px; color: black; text-align: justify center; padding-top: 30px">Discover how to make a memorable first impression with a new logo design that truly represents your business. Our logo designs are as unique as your business.</p>
-            </div>
+            <i class="fas fa-check fa-xs"></i>
+            <p class="mt-1" style="font-size: 25px">
+                Effectiveness
+            </p><br />
 
-            <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-4 mr-4 mt-5 mb-5" style="font-weight: 500">
-                <img src="Images/png/brochure5.png" style="color:white; width:40px; border-bottom:3px solid black; padding-bottom:12px" alt="Alternate Text" /><br />
-                <div class="mt-3 mb-3" style="font-family:Jost; letter-spacing:0.2px; color: black; font-weight:900">PRINT</div>
-                <p style="font-size:14px; color:black; text-align: justify center; padding-top: 30px">We take the extra step to captivate your brand, knowing that every piece of marketing material will benefit your company and leave a lasting impression.</p>
-            </div>
-
-            <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-4 mr-4 mt-5 mb-5" style="font-weight: 500">
-                <img src="Images/png/website.png" style="color:white; width:40px; border-bottom:3px solid black; padding-bottom:12px" alt="Alternate Text" /><br />
-                <div class="mt-3 mb-3" style="font-family:Jost; letter-spacing:0.2px; color: black; font-weight:900">WEB</div>
-                <p style="font-size: 14px; color: black; text-align: justify center; padding-top: 30px">A strong, compelling web presence is no longer a nice-to-have add on, it is a requirement. Welcome your visitors to an illuminating and irresistible journey through your enterprise.</p>
-            </div>
-
-            <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-4 mr-4 mt-5 mb-5" style="font-weight: 500">
-                <img src="Images/png/packaging2.png" style="color:white; width:40px; border-bottom:3px solid black; padding-bottom:12px" alt="Alternate Text" /><br />
-                <div class="mt-3 mb-3" style="font-family:Jost; letter-spacing:0.2px; color:black; font-weight:900">PACKAGING</div>
-                <p style="font-size: 14px; color: black; text-align: justify center; padding-top: 30px">Good packaging designs reflect your brand’s unique character, while following the latest trends to keep your audience wow’d!</p>
-            </div>
+            <i class="fas fa-check fa-xs"></i>
+            <p class="mt-1 mb-0" style="font-size: 25px">
+                High-quality
+            </p><br />
 
         </div>
     </div>
-</div>
 
-
-<div class="bgimg-7">
-    <div class="caption mb-0">
+    <div class="bgimg-6">
+        <div class="caption">
+            <span class="border">LET'S CREATE SOMETHING AMAZING TOGETHER!</span>
+        </div>
     </div>
-</div>
 
-<!--end of page content-->
+    <div class="position-relative">
+        <div style="color:#ddd;background-color:white;text-align:center;padding:50px 100px;text-align: justify;">
 
+            <div class="row">
 
-<footer>
-    <div class="wpb_wrapper">
-        <div
-            class="vc_row wpb_row vc_inner vc_row-fluid left_t case-studie-row vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
-
-            <div class="wpb_column vc_column_container vc_col-sm-6" style="height:500px; background-color: #f5f5f0">
-                <div class="vc_column-inner">
-                    <div class="wpb_wrapper">
-                        <div
-                            class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_start_animation animated">
-                            <div class="wpb_wrapper">
-
-                                <p class="pt-4 pb-0 mb-0"
-                                    style="font-size:50px;font-family:Playfair Display; letter-spacing:-2px; text-align: center">
-                                    Have a story <br />to tell?</p>
-                                <p style="text-align:center" class="pt-2 pr-3 pl-3 mr-5 ml-5 mt-4 mb-4 pb-4">We'll help you build out the spine of the narrative and execute a
-                                    unique brand experience.</p>
-                                <hr class="solid mt-4 mb-0 pt-0 pb-0"
-                                    style="border-top:7px solid orangered; width:10%">
-                            </div>
-                        </div>
-
-                        <div
-                            class="pb-5 mb-5 vc_btn3-container wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight vc_btn3-center wpb_start_animation animated">
-
-                            <a class="btn btn-spec pt-2 pb-2 pl-4 pr-4" style="font-weight: 400" href="contact.html"
-                                asp-action="Add">GET STARTED</a>
-
-                        </div>
-                    </div>
+                <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-4 mr-4 mt-5 mb-5" style="font-weight: 500">
+                    <img src="Images/png/logo.png" style="color:white; width:40px; border-bottom:3px solid black; padding-bottom:12px" alt="Alternate Text" /><br />
+                    <div class="mt-3 mb-3" style="font-family:Jost; letter-spacing:1px; color:black; font-weight:900">
+                        LOGO</div>
+                    <p style="font-size: 14px; color: black; text-align: justify center; padding-top: 30px">Discover how to make a memorable first impression with a new logo design that truly represents your business. Our logo designs are as unique as your business.</p>
                 </div>
-            </div>
 
-            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill" style="height:500px">
-                <div class="vc_column-inner vc_custom_1582317256604"
-                    style="background-color: orangered; background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important;">
-
-                    <div class="wpb_wrapper">
-                        <div style="text-align: center">
-                            <img class="footer-logo" alt="LOGO" />
-                        </div>
-
-                        <p class=""
-                            style="font-size:32px; font-family:Jost; text-align: center; color: white; font-weight: 700; letter-spacing: 4px; margin-top: 0; padding-top: 20px">
-                            YORGOVA</p>
-                        <p style="text-align: center; color: white; font-size: 12px" class="pr-5 pl-5 mr-5 ml-5">
-                            &copy; 2021 Yorgova Design
-
-                            <br />info@yorgova.net
-                        </p>
-                        <hr class="solid mt-4 mb-0 pt-0 pb-0" style="border-top:4px solid orangered; width:25%">
-
-                    </div>
+                <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-4 mr-4 mt-5 mb-5" style="font-weight: 500">
+                    <img src="Images/png/brochure5.png" style="color:white; width:40px; border-bottom:3px solid black; padding-bottom:12px" alt="Alternate Text" /><br />
+                    <div class="mt-3 mb-3" style="font-family:Jost; letter-spacing:0.2px; color: black; font-weight:900">PRINT</div>
+                    <p style="font-size:14px; color:black; text-align: justify center; padding-top: 30px">We take the extra step to captivate your brand, knowing that every piece of marketing material will benefit your company and leave a lasting impression.</p>
                 </div>
+
+                <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-4 mr-4 mt-5 mb-5" style="font-weight: 500">
+                    <img src="Images/png/website.png" style="color:white; width:40px; border-bottom:3px solid black; padding-bottom:12px" alt="Alternate Text" /><br />
+                    <div class="mt-3 mb-3" style="font-family:Jost; letter-spacing:0.2px; color: black; font-weight:900">WEB</div>
+                    <p style="font-size: 14px; color: black; text-align: justify center; padding-top: 30px">A strong, compelling web presence is no longer a nice-to-have add on, it is a requirement. Welcome your visitors to an illuminating and irresistible journey through your enterprise.</p>
+                </div>
+
+                <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-4 mr-4 mt-5 mb-5" style="font-weight: 500">
+                    <img src="Images/png/packaging2.png" style="color:white; width:40px; border-bottom:3px solid black; padding-bottom:12px" alt="Alternate Text" /><br />
+                    <div class="mt-3 mb-3" style="font-family:Jost; letter-spacing:0.2px; color:black; font-weight:900">
+                        PACKAGING</div>
+                    <p style="font-size: 14px; color: black; text-align: justify center; padding-top: 30px">Good packaging designs reflect your brand’s unique character, while following the latest trends to keep your audience wow’d!</p>
+                </div>
+
             </div>
         </div>
     </div>
-</footer>
 
 
-<script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/site.js" asp-append-version="true"></script>
-<script src="js/chosen.jquery.js"></script>
+    <div class="bgimg-7">
+        <div class="caption mb-0">
+        </div>
+    </div>
+
+    <!--end of page content-->
 
 
-<script>
-    function openPage(pageName, elmnt, color) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+    <footer-component></footer-component>
+
+
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script src="js/chosen.jquery.js"></script>
+
+
+    <script>
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
         }
-        tablinks = document.getElementsByClassName("tablink");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].style.backgroundColor = "";
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav-new").style.width = "100%";
         }
-        document.getElementById(pageName).style.display = "block";
-        elmnt.style.backgroundColor = color;
-    }
 
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-</script>
-
-<script>
-    function openNav() {
-        document.getElementById("myNav-new").style.width = "100%";
-    }
-
-    function closeNav() {
-        document.getElementById("myNav-new").style.width = "0%";
-    }
-</script>
-
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-</script>
-
-<script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
+        function closeNav() {
+            document.getElementById("myNav-new").style.width = "0%";
         }
-    }
-</script>
+    </script>
 
-<script>
-    $(document).ready(function () {
-        $(".active").removeClass("active");
-        $("#about").addClass("active");
-    });
-</script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $(".active").removeClass("active");
+            $("#about").addClass("active");
+        });
+    </script>
 
 </body>
 
