@@ -24,6 +24,15 @@ for details on configuring this project to bundle and minify static web assets. 
     font-family: Jost;
 }
 
+.explore {
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+    width: 57px;
+    font-family: none;
+    line-height: 1.2
+}
+
 .topnav a {
     float: left;
     display: block;
@@ -36,8 +45,7 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 
 .topnav a.active {
-    background-color: orangered;
-    border-bottom: 3px solid white;
+    color: orangered;
 }
 
 .topnav .icon {
@@ -56,6 +64,8 @@ for details on configuring this project to bundle and minify static web assets. 
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
 .dropdown .dropbtn {
     border: none;
@@ -132,10 +142,6 @@ for details on configuring this project to bundle and minify static web assets. 
     .topnav.responsive a {
         float: none;
         display: block;
-        text-align: left;
-    }
-    .topnav.responsive .explore {
-        text-align: center;
     }
     .topnav.responsive .user-register {
         text-align: center;
@@ -152,18 +158,16 @@ for details on configuring this project to bundle and minify static web assets. 
     .topnav.responsive .dropdown .dropbtn {
         display: block;
         width: 100%;
-        text-align: left;
+    }
+    .topnav.responsive .home-link {
+        display: none;
+    }
+    .topnav.responsive .explore {
+        display: none;
     }
 }
 
-.explore {
-    float: right;
-    font-size: 16px;
-    cursor: pointer;
-    width: 57px;
-    font-family: none;
-    line-height: 1.2
-}
+
 
 .user-register {
     float: right;
@@ -404,7 +408,6 @@ for details on configuring this project to bundle and minify static web assets. 
 
 .active,
 .accordion:hover {
-    background-color: orangered;
     color: white;
     border: none;
 }
@@ -1351,7 +1354,7 @@ p {
 }
 
 .bgimg-1 {
-    background-image: url('../Images/OurStory/zonart-2.png');
+    background-image: url('../Images/OurStory/desk.jpg');
     min-height: 400px;
     z-index: -1;
 }

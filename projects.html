@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects</title>
+    <title>Yorgova Design</title>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="css/site.css" />
 
@@ -33,9 +33,12 @@
     <link rel="stylesheet" href="css/skeleton.css" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="gallery/css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="gallery/css/style.css"> <!-- Resource style -->
-    <script src="gallery/js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="gallery/css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="gallery/css/style.css">
+    <!-- Resource style -->
+    <script src="gallery/js/modernizr.js"></script>
+    <!-- Modernizr -->
     <script src="gallery/js/jquery-3.6.0.js"></script>
     <script src="gallery/js/jquery-ui.js"></script>
 
@@ -49,12 +52,10 @@
 
     <script src="https://kit.fontawesome.com/68a5303305.js" crossorigin="anonymous"></script>
 
-
     <script src="js/mixitup.min.js"></script>
-
-    <link rel="import" href="myheader.html">
     <script src="components/header.js"></script>
     <script src="components/footer.js"></script>
+    <script src="components/button.js"></script>
 
 </head>
 
@@ -63,13 +64,7 @@
 
     <header-component></header-component>
 
-
-    <button id="myBtn" title="Go to top" style="color:lightgray" data-toggle="tooltip" data-placement="bottom"
-        data-container="body">
-        <i class="material-icons">arrow_upward</i>
-    </button>
-
-
+    <button-component></button-component>
 
     <!--content-->
 
@@ -155,14 +150,11 @@
 
     <!--end of page content-->
 
-
     <footer-component></footer-component>
-
 
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/site.js" asp-append-version="true"></script>
     <script src="js/chosen.jquery.js"></script>
-
 
     <script>
         function openPage(pageName, elmnt, color) {
@@ -210,13 +202,14 @@
         }
     </script>
 
-<script>
-    $(document).ready(function () {
-        $(".active").removeClass("active");
-        $("#projects").addClass("active");
-    });
-</script>
+    <script>
+        $(document).ready(function () {
+            $(".active").removeClass("active");
+            $("#projects").addClass("active");
+        });
+    </script>
+
+    </script>
 
 
 </body>
-

@@ -81,38 +81,9 @@
 
             <p
                 style="line-height:30px; padding-right:50px; padding-left:50px; padding-bottom:50px; padding-top:20px; color:black">
-                YORGOVA is design agency that offers innovative, impressive and quality solutions for your business.
-                Since our beginning about 15 years ago, we work with many clients from Europe and USA. Explore our world
-                of ideas born with creativity and passion.</p>
+                YORGOVA is design agency that offers innovative, impressive and quality solutions.
+                Explore our world of ideas born with creativity and uniqueness.</p>
 
-        </div>
-
-        <div class="bgimg-5">
-            <div class="caption">
-                <span class="border">WHY CHOOSE US</span>
-            </div>
-        </div>
-
-        <div style="position:relative;">
-            <div
-                style="color:black;background-color:white;text-align:center;padding:50px 50px;text-align: justify center; font-variant-caps: all-petite-caps">
-
-                <i class="fas fa-check fa-xs"></i>
-                <p class="mt-1" style="font-size: 25px">
-                    Creativity
-                </p><br />
-
-                <i class="fas fa-check fa-xs"></i>
-                <p class="mt-1" style="font-size: 25px">
-                    Effectiveness
-                </p><br />
-
-                <i class="fas fa-check fa-xs"></i>
-                <p class="mt-1 mb-0" style="font-size: 25px">
-                    High-quality
-                </p><br />
-
-            </div>
         </div>
 
         <div class="bgimg-6">
@@ -190,6 +161,52 @@
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/site.js" asp-append-version="true"></script>
     <script src="js/chosen.jquery.js"></script>
+
+    <script>
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav-new").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav-new").style.width = "0%";
+        }
+    </script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 
     <script>
         $(document).ready(function () {
