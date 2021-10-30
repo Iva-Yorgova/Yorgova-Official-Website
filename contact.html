@@ -4,13 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Yorgova Design</title>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="css/site.css" />
 
     <link rel="shortcut icon" href="Images/favicon.ico" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/font-awesome.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +43,6 @@
     <script src="gallery/js/jquery-3.6.0.js"></script>
     <script src="gallery/js/jquery-ui.js"></script>
 
-
     <!-- Favicons -->
     <link href="assets/img/favicon.ico" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -75,23 +72,18 @@
 
     <script src="https://kit.fontawesome.com/68a5303305.js" crossorigin="anonymous"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     <script src="js/mixitup.min.js"></script>
     <script src="components/header.js"></script>
     <script src="components/footer.js"></script>
+    <script src="components/button.js"></script>
 
 </head>
-
 
 <body>
 
     <header-component></header-component>
 
-    <button id="myBtn" title="Go to top" style="color:lightgray" data-toggle="tooltip" data-placement="bottom"
-        data-container="body">
-        <i class="material-icons">arrow_upward</i>
-    </button>
+    z
 
     <section id="contact" class="contact">
         <div class="container">
@@ -111,96 +103,19 @@
                             <p>info@yorgova.net</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 
         </div>
 
-    </section><!-- End Contact Us Section -->
-
+    </section>
 
     <footer-component></footer-component>
 
-
-    <script src="lib/jquery/dist/jquery.js/jquery.visible.js"></script>
-    <script src="lib/jquery/dist/jquery.js/jquery.visible.js/jquery.visible.min.js"></script>
-
-    <script src="lib/jquery/dist/jquery.js"></script>
-
-    <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/site.js" asp-append-version="true"></script>
+    <script src="js/site.js"></script>
     <script src="js/chosen.jquery.js"></script>
-
-
-    <script>
-        function openPage(pageName, elmnt, color) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].style.backgroundColor = "";
-            }
-            document.getElementById(pageName).style.display = "block";
-            elmnt.style.backgroundColor = color;
-        }
-
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
-    </script>
-
-    <script>
-        function openNav() {
-            document.getElementById("myNav-new").style.width = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav-new").style.width = "0%";
-        }
-    </script>
-
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-
-    <script>
-        // Add the following code if you want the name of the file appear on select
-        $(".custom-file-input").on("change", function () {
-            var fileName = $(this).val().split("\\").pop();
-            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-        });
-    </script>
-
-    <script>
-        function getFile() {
-            document.getElementById("upfile").click();
-        }
-
-        function sub(obj) {
-            var file = obj.value;
-            var fileName = file.split("\\");
-            document.getElementById("yourBtn").innerHTML = fileName[fileName.length - 1];
-            document.myForm.submit();
-            event.preventDefault();
-        }
-    </script>
 
     <script>
         $(document).ready(function () {
