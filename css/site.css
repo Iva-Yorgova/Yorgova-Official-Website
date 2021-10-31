@@ -152,8 +152,8 @@ for details on configuring this project to bundle and minify static web assets. 
     .topnav.responsive .dropdown {
         float: none;
     }
-    .dropdown-content {
-        left: 120px;
+    .topnav.responsive .dropdown-content {
+        display: none;
     }
     .topnav.responsive .dropdown .dropbtn {
         display: block;
