@@ -12,14 +12,17 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,8 +45,7 @@
     <script src="gallery/js/jquery-3.6.0.js"></script>
     <script src="gallery/js/jquery-ui.js"></script>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet'
-        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/example.css">
     <link rel="stylesheet" href="css/stroll.css">
@@ -61,6 +63,17 @@
 
 
 <body>
+    <style>
+        #preloader {
+            background: #000 url("Images/loader.gif") no-repeat center center;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            background-size: 12%;
+            z-index: 10000;
+        }
+    </style>
+    <div id="preloader"></div>
 
     <header-component></header-component>
 
@@ -73,72 +86,68 @@
         <ul class="grid" style="background:transparent">
             <li>
                 <a class="grid-item" href="brochures.html">
-                    <img src="Images/projects/brochures/brochure-design.jpg" alt=""
-                        style="display: block; height:100%; max-width:100%; width:100%; object-fit:cover;">
+                    <img src="Images/projects/brochures/brochure-design.jpg" alt="" style="display:block; height:100%; max-width:100%; width:100%; object-fit:cover">
+                    <span class="upper-title">Brochures</span>
                     <span class="description"><img src="Images/png/brochure3-white.png"
                             style="color:white; width:30px; padding-bottom:12px"
-                            alt="Alternate Text" /><br />Brochures</span>
+                            alt="Brochures" /><br />Brochures</span>
                 </a>
             </li>
             <li>
                 <a class="grid-item" href="logos.html">
-                    <img src="Images/projects/logos/logo-design.jpg" alt=""
-                        style="display: block; height:100%; max-width:100%; width:100%; object-fit:cover;">
+                    <img src="Images/projects/logos/logo-design.jpg" alt="" style="display: block; height:100%; max-width:100%; width:100%; object-fit:cover;">
+                    <span class="upper-title">Logos</span>
                     <span class="description"><img src="Images/png/pen-tool-white.png"
-                            style="color:white; width:30px; padding-bottom:12px"
-                            alt="Alternate Text" /><br />Logos</span>
+                            style="color:white; width:30px; padding-bottom:12px" alt="Logos" /><br />Logos</span>
                 </a>
             </li>
             <li>
                 <a class="grid-item" href="books.html">
-                    <img src="Images/projects/books/book-design.jpg" alt=""
-                        style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <img src="Images/projects/books/book-design.jpg" alt="" style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <span class="upper-title">Books</span>
                     <span class="description"><img src="Images/png/book.png"
-                            style="color:white; width:30px; padding-bottom:12px"
-                            alt="Alternate Text" /><br />Books</span>
+                            style="color:white; width:30px; padding-bottom:12px" alt="Books" /><br />Books</span>
                 </a>
             </li>
             <li>
                 <a class="grid-item" href="posters.html">
-                    <img src="Images/projects/posters/poster-design.jpg" alt=""
-                        style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <img src="Images/projects/posters/poster-design.jpg" alt="" style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <span class="upper-title">Posters</span>
                     <span class="description"><img src="Images/png/poster-white.png"
-                            style="color:white; width:30px; padding-bottom:12px"
-                            alt="Alternate Text" /><br />Posters</span>
+                            style="color:white; width:30px; padding-bottom:12px" alt="Posters" /><br />Posters</span>
                 </a>
             </li>
             <li>
                 <a class="grid-item" href="kids.html">
-                    <img src="Images/projects/kids/kids-design.jpg" alt=""
-                        style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <img src="Images/projects/kids/kids-design.jpg" alt="" style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <span class="upper-title">Kids</span>
                     <span class="description"><img src="Images/png/boy.png"
-                            style="color:white; width:30px; padding-bottom:12px"
-                            alt="Alternate Text" /><br />Kids</span>
+                            style="color:white; width:30px; padding-bottom:12px" alt="Kids" /><br />Kids</span>
                 </a>
             </li>
             <li>
                 <a class="grid-item" href="web.html">
-                    <img src="Images/projects/web/web-design.jpg" alt=""
-                        style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <img src="Images/projects/web/web-design.jpg" alt="" style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <span class="upper-title">Web</span>
                     <span class="description"><img src="Images/png/web.png"
-                            style="color:white; width:30px; padding-bottom:12px" alt="Alternate Text" /><br />Web</span>
+                            style="color:white; width:30px; padding-bottom:12px" alt="Web" /><br />Web</span>
                 </a>
             </li>
 
             <li>
                 <a class="grid-item" href="stationary.html">
-                    <img src="Images/projects/stationary/stationary-design.jpg" alt=""
-                        style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <img src="Images/projects/stationary/stationary-design.jpg" alt="" style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <span class="upper-title">Stationary</span>
                     <span class="description"><img src="Images/png/stationary.png"
                             style="color:white; width:30px; padding-bottom:12px"
-                            alt="Alternate Text" /><br />Stationary</span>
+                            alt="Stationary" /><br />Stationary</span>
                 </a>
             </li>
 
             <li>
                 <a class="grid-item" href="variety.html">
-                    <img src="Images/projects/variety/variety-design.jpg" alt=""
-                        style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <img src="Images/projects/variety/variety-design.jpg" alt="" style="display: block;height: 100%;max-width: 100%;width: 100%;object-fit: cover;">
+                    <span class="upper-title">Variety</span>
                     <span class="description"><img src="Images/png/variety.png"
                             style="color:white; width:30px; padding-bottom:12px"
                             alt="Alternate Text" /><br />Variety</span>
@@ -155,6 +164,13 @@
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/site.js" asp-append-version="true"></script>
     <script src="js/chosen.jquery.js"></script>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener('load', function() {
+            loader.style.display = "none";
+        })
+    </script>
 
     <script>
         function openPage(pageName, elmnt, color) {
@@ -186,7 +202,7 @@
     </script>
 
     <script>
-        $(function () {
+        $(function() {
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
@@ -203,7 +219,7 @@
     </script>
 
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $(".active").removeClass("active");
             $("#projects").addClass("active");
         });
