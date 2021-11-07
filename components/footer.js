@@ -4,7 +4,15 @@ class Footer extends HTMLElement {
     }
 
     connectedCallback() {
-        this.innerHTML = `<footer>
+        this.innerHTML = `<style>
+        .footer-title {
+            font-size: 50px;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: -1px;
+            text-align: center;
+        }
+      </style>
+      <footer>
         <div class="wpb_wrapper">
             <div
                 class="vc_row wpb_row vc_inner vc_row-fluid left_t case-studie-row vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
@@ -12,11 +20,10 @@ class Footer extends HTMLElement {
                 <div class="wpb_column vc_column_container vc_col-sm-6" style="height:500px; background-color: #f5f5f0">
                     <div class="vc_column-inner">
                         <div class="wpb_wrapper">
-                            <div
-                                class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_start_animation animated">
+                            <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_start_animation animated">
                                 <div class="wpb_wrapper">
 
-                                    <p class="footer-title pt-4 pb-0 mb-0" style="font-family:'Raleway', sans-serif">
+                                    <p class="footer-title pt-4 pb-0 mb-0" style="font-family: 'Raleway', sans-serif">
                                         Have a story <br />to tell?</p>
                                     <p style="text-align:center" class="pt-2 pr-3 pl-3 mr-5 ml-5 mt-4 mb-4 pb-4">We'll
                                         help you build out the spine of the narrative <br />and perform a

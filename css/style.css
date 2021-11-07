@@ -46,10 +46,14 @@ SITE LOGO
     max-width: 200px;
 }
 
+#site-logo a:hover {}
+
 
 /* 
 SITE DESCRIPTION
 ================================================ */
+
+#site-description {}
 
 
 /* 
@@ -87,6 +91,8 @@ SEARCH FORM
 /* 
 MAIN NAVIGATION
 ================================================ */
+
+#main-nav {}
 
 #main-nav li {
     margin: 0;
@@ -258,6 +264,8 @@ POST
     margin: 0 0 5px;
     padding: 0;
 }
+
+.post-title a {}
 
 
 /* post image */

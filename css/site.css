@@ -585,8 +585,6 @@ html {
     margin-top: 4px;
 }
 
-.z-logo-icon:hover {}
-
 .footer-logo {
     content: url('../Images/yorgova-white.svg');
     width: 20%;
@@ -1068,11 +1066,11 @@ li:hover .grid-item::after {
 }
 
 .upper-title {
-    font-size: 12px;
+    font-size: 14px;
     position: absolute;
     display: block;
-    top: 87%;
-    left: 5%;
+    top: 90%;
+    left: 3%;
     text-align: center;
     margin: auto;
     color: black;
@@ -1083,6 +1081,15 @@ li:hover .grid-item::after {
     font-family: 'Jost';
     letter-spacing: 0.3px;
     font-weight: 700;
+}
+
+.banner-title {
+    background: white;
+    height: 30px;
+    width: 100%;
+    opacity: 0.4;
+    top: -30px;
+    position: relative;
 }
 
 li:hover .description {
@@ -1486,6 +1493,12 @@ h3 {
     .big-title {
         font-size: 43px;
     }
+    .footer-title {
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: -1px;
+        text-align: center;
+    }
 }
 
 .responsive {
@@ -1701,6 +1714,7 @@ textarea {
     outline: none;
     box-shadow: none;
     border: 1px solid #ced4da;
+    width: 100%;
 }
 
 input[type="textarea"] select {
@@ -1733,6 +1747,7 @@ input[type=submit] {
     font-variant-caps: all-petite-caps;
     font-family: 'Jost';
     letter-spacing: 4px;
+    width: 100%;
 }
 
 input[type=submit]:hover {
@@ -1761,8 +1776,6 @@ div.gallery {
     float: left;
     width: 180px;
 }
-
-div.gallery:hover {}
 
 div.gallery img {
     width: 100%;
@@ -1954,8 +1967,6 @@ html {
     margin: 0;
 }
 
-.container {}
-
 body {
     background-color: white;
     list-style: none;
@@ -1982,8 +1993,6 @@ body {
     color: white;
     margin-left: 20px;
 }
-
-.nav-bottom-text {}
 
 .footer-text:hover {
     color: black;
