@@ -79,6 +79,8 @@
 
     <script src="https://kit.fontawesome.com/68a5303305.js" crossorigin="anonymous"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <script src="js/mixitup.min.js"></script>
     <script src="components/header.js"></script>
     <script src="components/footer.js"></script>
@@ -87,6 +89,19 @@
 </head>
 
 <body>
+
+    <style>
+        #preloader {
+            background: #000 url("Images/loader.gif") no-repeat center center;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            background-size: 12%;
+            z-index: 10000;
+        }
+    </style>
+    <div id="preloader"></div>
+
     <header-component></header-component>
 
     <button-component></button-component>
@@ -96,12 +111,11 @@
 
             <div class="section-title mt-5">
                 <div class="info-box mt-3">
-                    <i class="bx bx-envelope"></i>
+                    <i class="bx bx-mail-send"></i>
                 </div> 
                 <h2>Thank you!</h2>
-                <h6 >Your email is received and we will contact you soon.</h6>
-            </div>
-
+                <h4 >Your email is received and we will contact you shortly.</h4>
+            </div>       
 
         </div>
 
@@ -112,6 +126,13 @@
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/site.js"></script>
     <script src="js/chosen.jquery.js"></script>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener('load', function() {
+            loader.style.display = "none";
+        })
+    </script>
 
     <script>
         function openPage(pageName, elmnt, color) {
@@ -157,13 +178,6 @@
                 x.className = "topnav";
             }
         }
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $(".active").removeClass("active");
-            $("#contact").addClass("active");
-        });
     </script>
 
 </body>
