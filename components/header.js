@@ -51,7 +51,7 @@ class Header extends HTMLElement {
 
             <a href="contact.html" id="contact">Contact</a>
 
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 
             <a class="nav-right explore float-right" onclick="openNav()" title="Explore" data-toggle="tooltip"
                 data-placement="bottom" data-container="body"><img class="compass" alt="explore" /></a>
