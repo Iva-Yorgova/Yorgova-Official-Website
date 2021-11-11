@@ -50,7 +50,7 @@ class Footer extends HTMLElement {
 
                         <div class="wpb_wrapper">
                             <div style="text-align: center">
-                                <img class="footer-logo" alt="LOGO" />
+                                <img class="footer-logo"  src="Images/yorgova-white.svg"alt="LOGO" />
                             </div>
 
                             <p class=""

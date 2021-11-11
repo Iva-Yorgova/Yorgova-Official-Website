@@ -1,6 +1,20 @@
 ﻿﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+video::-webkit-media-controls-download-button {
+    margin-right: -200px;
+    z-index: -1000000000;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px);
+    /* Adjust as needed */
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -1389,8 +1403,8 @@ p {
 
 .bgimg-1 {
     background-image: url('../Images/OurStory/desk.jpg');
-    min-height: 430px;
     z-index: -1;
+    height: 400px;
 }
 
 .bgimg-2 {
@@ -1511,12 +1525,6 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones*/
 
-@media only screen and (max-device-width: 800px) {
-    .bgimg-1 {
-        height: 150px;
-    }
-}
-
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1,
     .bgimg-2,
@@ -1530,7 +1538,7 @@ h3 {
         background-size: cover;
     }
     .bgimg-1 {
-        max-height: 250px;
+        height: 350px;
     }
     .bgimg-2 {
         min-height: 310px;
@@ -1575,6 +1583,36 @@ h3 {
         font-family: 'Raleway', sans-serif;
         letter-spacing: -1px;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .bgimg-1 {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .bgimg-1 {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bgimg-1 {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .bgimg-1 {
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .bgimg-1 {
+        height: 200px;
     }
 }
 

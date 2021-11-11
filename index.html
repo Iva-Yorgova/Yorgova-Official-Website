@@ -75,78 +75,21 @@
     </style>
     <div id="preloader"></div>
 
-    <header>
-        <div class="position-fixed w-100" style="z-index:2000">
-
-            <div id="myNav-new" class="overlay-new">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                    <a href="projects.html">All Cases</a>
-                    <a href="logos.html">Logos</a>
-                    <a href="books.html">Books</a>
-                    <a href="brochures.html">Brochures</a>
-                    <a href="stationary.html">Stationary</a>
-                    <a href="variety.html">Variety</a>
-                    <a href="kids.html">Kids</a>
-                    <a href="posters.html">Posters</a>
-                    <a href="web.html">Web</a>
-                </div>
-            </div>
-
-            <div class="topnav" id="myTopnav">
-
-                <a class="home-link" href="index.html" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Home" id="home" style="padding-top:11px; padding-bottom:13px">
-                    <img class="z-logo-icon" src="Images/yorgova-white.svg">
-                </a>
-
-                <a href="ourStory.html" id="about">ABOUT</a>
-
-                <a href="services.html" id="services">SERVICES</a>
-
-                <div class="dropdown">
-                    <a class="dropbtn" href="projects.html" id="projects">
-                        PROJECTS
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="brochures.html">Brochures</a>
-                        <a href="logos.html">Logos</a>
-                        <a href="books.html">Books</a>
-                        <a href="posters.html">Posters</a>
-                        <a href="kids.html">Kids</a>
-                        <a href="web.html">Web</a>
-                        <a href="stationary.html">Stationary</a>
-                        <a href="variety.html">Variety</a>
-                    </div>
-                </div>
-
-                <a href="contact.html" id="contact">CONTACT</a>
-
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-
-                <a class="nav-right explore float-right" onclick="openNav()" title="Explore" data-toggle="tooltip" data-placement="bottom" data-container="body"><img class="compass" src="Images/png/compass.png" alt="explore" /></a>
-
-            </div>
-        </div>
-
-    </header>
+    <header-component></header-component>
 
     <button-component></button-component>
 
     <!--content-->
     <div>
         <div class="bgimg-1">
-            <div class="video-div" style="text-align:center; position:relative; opacity:0.7; top:0px; max-height:430px; background-color:#172333;">
-                <video id="myVideo" video width="850" autoplay muted>
+
+            <div class="video-div" style="text-align:center; position:relative; opacity:0.7; top:0px; max-height:480px; background-color:#172333;">
+                <video id="myVideo" video width="750" controlsList="nodownload" autoplay muted>
                 <source src="video/yorgova.mp4" type="video/mp4">
                 <source src="video/yorgova.mp4" type="video/ogg">
               </video>
             </div>
             <div class="caption">
-
-                <!--<div class="logo-img">
-                    <img class="position-absolute centered w-25" style="z-index:-1; padding-top:280px"
-                        src="Images/yorgova.svg" />
-                </div>-->
 
             </div>
         </div>
@@ -181,7 +124,7 @@
                 </div>
 
                 <div class="col text-center pt-3 pl-1 pr-1 pb-3 ml-5 mr-5 mt-5 mb-5" style="font-weight: 500">
-                    <a href="brochures.html"><img src="Images/print.svg" style="color:white; width:70px; padding:7px 7px 7px 7px" alt="Print Collateral" /></a>
+                    <a href="brochures.html"><img src="Images/print.png" style="color:white; width:60px; padding:7px 7px 7px 7px" alt="Print Collateral" /></a>
                     <br />
                     <div class="mt-2 mb-3" style="font-family: Jost; letter-spacing:1px">PRINT COLLATERAL</div>
                 </div>
@@ -212,68 +155,7 @@
     </div>
     <!--end of page content-->
 
-    <style>
-        .footer-title {
-            font-size: 50px;
-            font-family: 'Raleway', sans-serif;
-            letter-spacing: -1px;
-            text-align: center;
-        }
-    </style>
-    <footer>
-        <div class="wpb_wrapper">
-            <div class="vc_row wpb_row vc_inner vc_row-fluid left_t case-studie-row vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
-
-                <div class="wpb_column vc_column_container vc_col-sm-6" style="height:500px; background-color: #f5f5f0">
-                    <div class="vc_column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_start_animation animated">
-                                <div class="wpb_wrapper">
-
-                                    <p class="footer-title pt-4 pb-0 mb-0" style="font-family: 'Raleway', sans-serif">
-                                        Have a story <br />to tell?</p>
-                                    <p style="text-align:center" class="pt-2 pr-3 pl-3 mr-5 ml-5 mt-4 mb-4 pb-4">We'll help you build out the spine of the narrative <br />and perform a unique brand experience.</p>
-                                    <hr class="solid mt-4 mb-0 pt-0 pb-0" style="border-top:7px solid orangered; width:10%">
-                                </div>
-                            </div>
-
-                            <div class="pb-5 mb-5 vc_btn3-container wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight vc_btn3-center wpb_start_animation animated">
-
-                                <a class="btn btn-spec pt-2 pb-2 pl-4 pr-4" style="font-weight: 400" href="projects.html" asp-action="Add">EXPLORE</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill" style="height:500px">
-                    <div class="vc_column-inner vc_custom_1582317256604" style="background-color: orangered; background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important;">
-
-                        <div class="wpb_wrapper">
-                            <div style="text-align: center">
-                                <img class="footer-logo" alt="LOGO" src="Images/yorgova-white.svg" />
-                            </div>
-
-                            <p class="" style="font-size:32px; font-family:Jost; text-align: center; color: white; font-weight: 700; letter-spacing: 4px; margin-top: 0; padding-top: 20px">
-                                YORGOVA</p>
-                            <p style="text-align: center; color: white; font-size: 12px" class="pr-5 pl-5 mr-5 ml-5">
-                                &copy; 2021 Yorgova Design
-
-                                <br />info@yorgova.net
-                            </p>
-                            <hr class="solid mt-4 mb-0 pt-0 pb-0" style="border-top:4px solid orangered; width:25%">
-
-                            <!--<div class="" style="text-align:center">
-        <a href="#"><i class="fa fa-instagram fa-sm" style="color: white; margin-right: 20px"></i></a>
-        <a href="#"><i class="fa fa-twitter fa-sm" style="color: white; margin-right: 20px"></i></a>
-        <a href="#"><i class="fa fa-behance fa-sm" style="color: white"></i></a>
-    </div>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer-component></footer-component>
 
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/site.js"></script>
