@@ -106,6 +106,7 @@ video {
     letter-spacing: 1.2px;
     font-size: 12px;
     font-family: Jost;
+    line-height: 2.1;
 }
 
 .explore {
@@ -1421,7 +1422,7 @@ p {
 
 .bgimg-4 {
     background-image: url('../Images/OurStory/01.jpg');
-    min-height: 400px;
+    height: 400px;
     z-index: -1;
 }
 
@@ -1547,10 +1548,10 @@ h3 {
         min-height: 340px;
     }
     .bgimg-4 {
-        min-height: 250px;
+        height: 350px;
     }
     .bgimg-6 {
-        min-height: 250px;
+        height: 340px;
     }
     .bgimg-2 .caption {
         top: 43%;
@@ -1559,10 +1560,10 @@ h3 {
         top: 41%;
     }
     .bgimg-6 .caption {
-        top: 37%;
+        top: 47%;
     }
     .bgimg-7 {
-        min-height: 210px;
+        height: 340px;
     }
     .border {
         font-size: 14px;
