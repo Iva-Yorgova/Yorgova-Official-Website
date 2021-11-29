@@ -57,6 +57,12 @@ video {
     height: 87%;
 }
 
+@media only screen and (max-width: 400px) {
+    .video-div {
+        display: none;
+    }
+}
+
 .video-cover {
     background-color: #172333;
     height: 60px;
