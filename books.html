@@ -64,6 +64,17 @@
 </head>
 
 <body>
+    <style>
+        #preloader {
+            background: #000 url("Images/loader.gif") no-repeat center center;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            background-size: 12%;
+            z-index: 10000;
+        }
+    </style>
+    <div id="preloader"></div>
 
     <header-component></header-component>
 
@@ -118,6 +129,13 @@
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/site.js"></script>
     <script src="js/chosen.jquery.js"></script>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener('load', function() {
+            loader.style.display = "none";
+        })
+    </script>
 
     <script>
         function openPage(pageName, elmnt, color) {
