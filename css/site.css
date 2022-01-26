@@ -1554,6 +1554,7 @@ h3 {
         min-height: 340px;
     }
     .bgimg-4 {
+        background-image: url('../Images/OurStory/01b.jpg');
         height: 350px;
     }
     .bgimg-6 {
@@ -1605,7 +1606,8 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 600px) {
+
+/* @media only screen and (max-width: 600px) {
     .bgimg-1 {
         height: 320px;
     }
@@ -1621,7 +1623,7 @@ h3 {
     .bgimg-1 {
         height: 200px;
     }
-}
+} */
 
 .responsive {
     width: 100%;
