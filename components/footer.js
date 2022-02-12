@@ -57,7 +57,7 @@ class Footer extends HTMLElement {
                                 style="font-size:32px; font-family:Jost; text-align: center; color: white; font-weight: 700; letter-spacing: 4px; margin-top: 0; padding-top: 20px">
                                 YORGOVA</p>
                             <p style="text-align: center; color: white; font-size: 12px" class="pr-5 pl-5 mr-5 ml-5">
-                                &copy; 2021 Yorgova Design
+                                &copy; 2022 Yorgova Design
 
                                 <br />info@yorgova.net
                             </p>
