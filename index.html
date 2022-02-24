@@ -85,7 +85,7 @@
     <div>
         <div class="bgimg-1">
 
-            <div class="video-div" preload="auto" style="text-align:center; position:relative; opacity:0.7; top:0px; max-height:480px; background-color:#172333;">
+            <div class="video-div" preload="auto" style="text-align:center; position:relative; opacity:0.7; top:40px; max-height:500px; background-color:#172333;">
                 <video id="myVideo" video width="750" controlsList="nodownload" autoplay muted>
                 <source src="video/yorgova.mp4" type="video/mp4">
                 <source src="video/yorgova.mp4" type="video/ogg">
@@ -178,6 +178,7 @@
         vid.onended = function() {
             vid.remove();
             coverDiv.remove();
+            vidDiv.remove();
             //myLogo.style.display = 'inline-block';
         };
     </script>
