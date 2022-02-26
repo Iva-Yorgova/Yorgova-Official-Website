@@ -1543,6 +1543,7 @@ h3 {
     .bg-img-8 {
         background-attachment: scroll;
         background-size: cover;
+        background-position: center;
     }
     .bgimg-1 {
         height: 350px;
