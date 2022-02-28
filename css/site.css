@@ -87,7 +87,14 @@ video {
 .contact-message {
     font-weight: 400;
     font-size: 18px;
-    margin-top: 52px;
+    margin-top: 46px;
+}
+
+.email-contact {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 600;
 }
 
 .welcome-message {
