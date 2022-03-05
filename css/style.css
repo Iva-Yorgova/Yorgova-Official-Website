@@ -2785,7 +2785,7 @@ body:not(.home) h3 {
 
 body:not(.home) .vc_row[data-vc-full-width] {
     left: 50% !important;
-    width: 100vw !important;
+    /* width: 100vw !important; */
     transform: translateX(-50%) !important;
     margin-left: 0;
     margin-right: 0;
