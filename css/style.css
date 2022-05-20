@@ -229,7 +229,20 @@ MAIN NAVIGATION
 /************************************************************************************
 PAGE
 *************************************************************************************/
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
 
+.hero-title {
+    color: white;
+    font-family: Raleway;
+    font-size: 50px;
+    top: -120px;
+    position: relative;
+    line-height: 83px;
+}
 
 /* page title */
 
