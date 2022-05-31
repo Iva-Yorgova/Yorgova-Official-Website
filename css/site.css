@@ -40,6 +40,10 @@ video::-webkit-media-controls-panel {
     }
 }
 
+a.project-link:hover {
+    color: black;
+}
+
 .translate-y {
     animation: translateY ease-in 1;
     animation-duration: 0.1s;
@@ -140,6 +144,7 @@ video {
     text-decoration: none;
     height: 50px;
     font-variant: small-caps;
+    transition: 0.5s;
 }
 
 .topnav a.active {
@@ -692,6 +697,10 @@ html {
 
 .container {
     position: relative;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .text-block {
@@ -1274,6 +1283,7 @@ p {
     cursor: pointer;
     font-family: 'Jost';
     letter-spacing: 4px;
+    transition: 0.5s;
 }
 
 .default {

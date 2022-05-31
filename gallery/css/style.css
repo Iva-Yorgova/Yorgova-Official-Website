@@ -28,6 +28,12 @@ body {
 a {
     color: black;
     text-decoration: none;
+    
+}
+
+
+.project-link:hover {
+    color: black;
 }
 
 /* -------------------------------- 
