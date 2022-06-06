@@ -31,6 +31,10 @@
     border-right: 1px solid gray;
 }
 
+.container-projects {
+    gap: 21px;
+}
+
 .image-box img{
     width: 100%;
 }
