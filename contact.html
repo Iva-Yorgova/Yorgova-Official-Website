@@ -23,7 +23,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
+        rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,7 +56,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+        rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
@@ -88,6 +91,7 @@
 </head>
 
 <body>
+
     <style>
         #preloader {
             background: #000 url("Images/loader.gif") no-repeat center center;
@@ -97,7 +101,7 @@
             background-size: 12%;
             z-index: 10000;
         }
-        
+
         .email-contact {
             border: 1px solid black;
             display: inline-block;
@@ -105,6 +109,7 @@
             font-weight: 600;
         }
     </style>
+
     <div id="preloader"></div>
 
     <header-component></header-component>
@@ -112,13 +117,15 @@
     <button-component></button-component>
 
     <section id="contact" class="contact">
-        <div class="container">
+
+        <div class="container container-contacts">
 
             <div class="section-title mt-5">
                 <span>Contact</span>
                 <h2>Contact</h2>
                 <h4 class="email-contact">info@yorgova.net</h4>
-                <h4 class="contact-message">Send us a message with details of your project<br>and we will contact you.</h4>
+                <h4 class="contact-message">Send us a message with details of your project<br>and we will contact you.
+                </h4>
 
             </div>
 
@@ -164,7 +171,7 @@
 
     <script>
         var loader = document.getElementById("preloader");
-        window.addEventListener('load', function() {
+        window.addEventListener('load', function () {
             loader.style.display = "none";
         })
     </script>
@@ -208,7 +215,7 @@
     </script>
 
     <script>
-        $(function() {
+        $(function () {
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
@@ -225,7 +232,7 @@
     </script>
 
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $(".active").removeClass("active");
             $("#contact").addClass("active");
         });
