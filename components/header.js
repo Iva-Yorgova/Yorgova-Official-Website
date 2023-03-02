@@ -42,7 +42,7 @@ class Header extends HTMLElement {
                         <a href="books.html">BOOKS</a>
                         <a href="posters.html">POSTERS</a>
                         <a href="kids.html">KIDS</a>
-                        <a href="web.html">WEB</a>
+                        <a href="web.html">WEB DESIGN</a>
                         <a href="webDevelopment.html">WEB DEVELOPMENT</a>
                         <a href="stationary.html">STATIONARY</a>
                         <a href="variety.html">VARIETY</a>
