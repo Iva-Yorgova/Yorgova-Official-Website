@@ -2,14 +2,14 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-$(function() {
+$(function () {
     $('[data-toggle="tooltip"]').tooltip();
 })
 
 // smooth scroll to top of page effect
 const btnScrollToTop = document.querySelector("#myBtn");
 
-btnScrollToTop.addEventListener("click", function() {
+btnScrollToTop.addEventListener("click", function () {
     $("html, body").animate({ scrollTop: 0 }, "slow");
 });
 
@@ -24,16 +24,16 @@ var win = $(window);
 
 var allMods = $(".module");
 
-allMods.each(function(i, el) {
+allMods.each(function (i, el) {
     var el = $(el);
     if (el.visible(true)) {
         el.addClass("already-visible");
     }
 });
 
-win.scroll(function(event) {
+win.scroll(function (event) {
 
-    allMods.each(function(i, el) {
+    allMods.each(function (i, el) {
         var el = $(el);
         if (el.visible(true)) {
             el.addClass("come-in");
@@ -42,7 +42,7 @@ win.scroll(function(event) {
 
 });
 
-$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+$(document).on("click", '[data-toggle="lightbox"]', function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
 });
@@ -88,7 +88,7 @@ function showSlides(n) {
 
 // hiding menu
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
+window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("hidingnavbar").style.top = "0";
@@ -117,7 +117,7 @@ function closeSearch() {
     document.getElementById("myOverlay").style.display = "none";
 }
 
-$(function() {
+$(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
 
@@ -156,7 +156,10 @@ function myFunction() {
 }
 
 // Add the following code if you want the name of the file appear on select
-$(".custom-file-input").on("change", function() {
+$(".custom-file-input").on("change", function () {
     var fileName = $(this).val().split("\\").pop();
     $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
 });
+
+
+
