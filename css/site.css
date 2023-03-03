@@ -1446,7 +1446,7 @@ p {
 }
 
 .bgimg-3 {
-  background-image: url("../Images/OurStory/company.png");
+  background-image: url("../Images/OurStory/company.jpg");
   min-height: 400px;
   z-index: -1;
 }
@@ -1458,7 +1458,7 @@ p {
 }
 
 .bgimg-5 {
-  background-image: url("../Images/OurStory/art.png");
+  background-image: url("../Images/OurStory/art.jpg");
   min-height: 400px;
   z-index: -1;
 }
@@ -1470,7 +1470,7 @@ p {
 }
 
 .bgimg-7 {
-  background-image: url("../Images/OurStory/art-3.png");
+  background-image: url("../Images/OurStory/art-3.jpg");
   min-height: 400px;
   z-index: -1;
 }
