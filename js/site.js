@@ -56,47 +56,47 @@ function myFunction(imgs) {
 }
 
 // gallery-slide
-var slideIndex = 1;
-showSlides(slideIndex);
+// var slideIndex = 1;
+// showSlides(slideIndex);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+// function plusSlides(n) {
+//     showSlides(slideIndex += n);
+// }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+// function currentSlide(n) {
+//     showSlides(slideIndex = n);
+// }
 
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-    captionText.innerHTML = dots[slideIndex - 1].alt;
-}
+// function showSlides(n) {
+//     var i;
+//     var slides = document.getElementsByClassName("mySlides");
+//     var dots = document.getElementsByClassName("demo");
+//     var captionText = document.getElementById("caption");
+//     if (n > slides.length) { slideIndex = 1 }
+//     if (n < 1) { slideIndex = slides.length }
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     for (i = 0; i < dots.length; i++) {
+//         dots[i].className = dots[i].className.replace(" active", "");
+//     }
+//     slides[slideIndex - 1].style.display = "block";
+//     dots[slideIndex - 1].className += " active";
+//     captionText.innerHTML = dots[slideIndex - 1].alt;
+// }
 
 
 // hiding menu
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("hidingnavbar").style.top = "0";
-    } else {
-        document.getElementById("hidingnavbar").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-}
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function () {
+//     var currentScrollPos = window.pageYOffset;
+//     if (prevScrollpos > currentScrollPos) {
+//         document.getElementById("hidingnavbar").style.top = "0";
+//     } else {
+//         document.getElementById("hidingnavbar").style.top = "-50px";
+//     }
+//     prevScrollpos = currentScrollPos;
+// }
 
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -136,7 +136,7 @@ function openPage(pageName, elmnt, color) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+// document.getElementById("defaultOpen").click();
 
 function openNav() {
     document.getElementById("myNav-new").style.width = "100%";
