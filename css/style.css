@@ -18,6 +18,98 @@ body {
   color: black;
 }
 
+.yorgova-box {
+  color: black;
+  text-align: center;
+  text-align: justify center;
+}
+
+.yorgova-info {
+  line-height: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.services-box {
+  color: #ddd;
+  background-color: white;
+  text-align: center;
+  padding: 50px 100px;
+  text-align: justify;
+}
+
+.col {
+  font-weight: 500;
+}
+
+.logo-img {
+  color: white;
+  width: 40px;
+  border-bottom: 3px solid black;
+  padding-bottom: 12px;
+}
+
+.logo-text {
+  font-family: Jost;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 900;
+}
+
+.logo-info {
+  font-size: 16px;
+  color: black;
+  text-align: justify center;
+  padding-top: 30px;
+}
+
+.brochures-img {
+  color: white;
+  width: 40px;
+  border-bottom: 3px solid black;
+  padding-bottom: 12px;
+}
+
+.brochures-text {
+  font-family: Jost;
+  letter-spacing: 0.2px;
+  color: black;
+  font-weight: 900;
+}
+
+.brochures-info {
+  font-size: 16px;
+  color: black;
+  text-align: justify center;
+  padding-top: 30px;
+}
+
+.web-img {
+  color: white;
+  width: 40px;
+  border-bottom: 3px solid black;
+  padding-bottom: 12px;
+}
+
+.web-text {
+  font-family: Jost;
+  letter-spacing: 0.2px;
+  color: black;
+  font-weight: 900;
+}
+
+.web-info {
+  font-size: 16px;
+  color: black;
+  text-align: justify center;
+  padding-top: 30px;
+}
+
 /************************************************************************************
 HEADER
 *************************************************************************************/
