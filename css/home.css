@@ -1,5 +1,10 @@
+.hero-title {
+  font-family: Raleway;
+}
+
 .caption {
   animation: slideInFromRight 2s ease-in;
+  font-family: Raleway;
 }
 
 .elevate-box {

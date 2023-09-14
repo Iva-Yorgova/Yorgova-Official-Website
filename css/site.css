@@ -124,6 +124,8 @@ video {
   font-size: 12px;
   font-family: Jost;
   line-height: 2.1;
+  position: relative;
+  top: -22px;
 }
 
 .explore {
@@ -2006,9 +2008,6 @@ a:hover {
   line-height: 57px;
 }
 
-.nav-item {
-}
-
 li.nav-item:hover {
   background-color: dimgray;
   font-weight: 400;
@@ -2293,9 +2292,6 @@ body {
 .active,
 .demo:hover {
   opacity: 1;
-}
-
-footer {
 }
 
 .bottom-text-footer {
