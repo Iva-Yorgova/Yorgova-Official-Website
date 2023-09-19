@@ -1,0 +1,130 @@
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.left-box,
+.right-box {
+  width: 50%;
+  height: 523px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.box-1 {
+  background: url("../Images/OurStory/branding-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.box-2 {
+  background: url("../Images/OurStory/web-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.box-3 {
+  background: url("../Images/OurStory/print.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.box-4 {
+  background: url("../Images/OurStory/stationary.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.left-text {
+  text-align: center;
+  width: 313px;
+  left: -593px;
+  position: relative;
+  transition: all 1s ease-in-out;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-text {
+  text-align: center;
+  width: 313px;
+  right: -593px;
+  position: relative;
+  transition: all 1s ease-in-out;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-in-left {
+  left: 156px;
+}
+
+.slide-in-right {
+  right: -156px;
+}
+
+.box-title {
+  font-size: 40px;
+  color: #000;
+  line-height: 48px;
+  font-family: "Jost";
+  font-weight: normal !important;
+  text-align: center;
+  font-variant-caps: all-petite-caps;
+}
+
+.info {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.orange-bar {
+  width: 82px;
+  height: 7px;
+  background-color: orangered;
+  margin: 30px;
+}
+
+.box-btn {
+  background-color: transparent;
+  padding: 20px;
+  border: 1px solid black;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+
+.box-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .left-box,
+  .right-box {
+    width: 100%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .right-box {
+    order: 2;
+  }
+}
