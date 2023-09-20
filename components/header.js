@@ -1,11 +1,11 @@
 class Header extends HTMLElement {
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    connectedCallback() {
-        this.innerHTML = `<header>
-        <div class="position-fixed w-100" style="z-index:2000">
+  connectedCallback() {
+    this.innerHTML = `<header>
+        <div class="position-fixed w-100">
 
             <div id="myNav-new" class="overlay-new">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -18,13 +18,14 @@ class Header extends HTMLElement {
                     <a href="variety.html">Variety</a>
                     <a href="kids.html">Kids</a>
                     <a href="posters.html">Posters</a>
-                    <a href="web.html">Web</a>
+                    <a href="web.html">Web Design</a>
+                    <a href="webDevelopment.html">Web Development</a>
                 </div>
             </div>
 
             <div class="topnav" id="myTopnav">
 
-                <a class="home-link" href="index.html" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Home" id="home" style="padding-top:11px; padding-bottom:13px">
+                <a class="home-link" href="index.html" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Home" id="home">
                     <img class="z-logo-icon" src="Images/yorgova-white.svg">
                 </a>
 
@@ -59,7 +60,7 @@ class Header extends HTMLElement {
         </div>
 
     </header>`;
-    }
+  }
 }
 
-customElements.define('header-component', Header);
+customElements.define("header-component", Header);
