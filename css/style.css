@@ -22,14 +22,13 @@ body {
   color: black;
   text-align: center;
   text-align: justify center;
+  margin-bottom: 3rem;
 }
 
 .yorgova-info {
   line-height: 30px;
   padding-right: 50px;
   padding-left: 50px;
-  padding-bottom: 50px;
-  padding-top: 20px;
   color: black;
   font-weight: 100;
   font-size: 20px;
@@ -1644,7 +1643,6 @@ body #responsive-menu {
   background-size: contain !important;
   border: 1px solid #fff !important;
   display: inline-block !important;
-  float: left !important;
   height: calc(100vw / 3.2);
   margin: 0;
   opacity: 1;
@@ -1767,7 +1765,6 @@ body #responsive-menu {
   background-repeat: repeat;
   background-size: cover;
   display: inline-block;
-  float: left;
   height: calc(100vw / 3.25);
   margin: 0;
   position: relative;
@@ -1911,7 +1908,6 @@ body.single-portfolio {
   display: inline-block;
   vertical-align: top;
   width: 25%;
-  float: left;
   margin: 0;
 }
 

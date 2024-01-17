@@ -1,10 +1,10 @@
 class Footer extends HTMLElement {
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    connectedCallback() {
-        this.innerHTML = `<style>
+  connectedCallback() {
+    this.innerHTML = `<style>
         .footer-title {
             font-size: 50px;
             font-family: 'Raleway', sans-serif;
@@ -57,7 +57,7 @@ class Footer extends HTMLElement {
                                 style="font-size:32px; font-family:Jost; text-align: center; color: white; font-weight: 700; letter-spacing: 4px; margin-top: 0; padding-top: 20px">
                                 YORGOVA</p>
                             <p style="text-align: center; color: white; font-size: 12px" class="pr-5 pl-5 mr-5 ml-5">
-                                &copy; 2023 Yorgova Design
+                                &copy; 2024 Yorgova Design
 
                                 <br />info@yorgova.net
                             </p>
@@ -74,7 +74,7 @@ class Footer extends HTMLElement {
             </div>
         </div>
     </footer>`;
-    }
+  }
 }
 
-customElements.define('footer-component', Footer);
+customElements.define("footer-component", Footer);

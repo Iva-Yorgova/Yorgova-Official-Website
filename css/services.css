@@ -16,7 +16,7 @@
 }
 
 .box-1 {
-  background: url("../Images/OurStory/branding-2.jpg");
+  background: url("../Images/OurStory/branding-art-new.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 }
 
 .box-4 {
-  background: url("../Images/OurStory/stationary.jpg");
+  background: url("../Images/OurStory/stationary-new.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 .right-text {
   text-align: center;
   width: 313px;
-  right: -593px;
+  right: -993px;
   position: relative;
   transition: all 1s ease-in-out;
   color: black;
