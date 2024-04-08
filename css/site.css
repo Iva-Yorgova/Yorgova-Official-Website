@@ -124,9 +124,9 @@ video {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.93);
   letter-spacing: 1.2px;
-  font-size: 12px;
+  font-size: 14px;
   font-family: Jost;
-  line-height: 2.1;
+  line-height: 1.6;
 }
 
 .explore {
