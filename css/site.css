@@ -649,7 +649,7 @@ html {
 
 .compass {
   content: url("../Images/png/compass.png");
-  width: 17px;
+  width: 21px;
   font-size: 12px;
 }
 
@@ -681,8 +681,8 @@ html {
 
 .z-logo-icon {
   content: url("../Images/yorgova-white.svg");
-  width: 21px;
-  height: 22px;
+  width: 28px;
+  height: 30px;
   margin-bottom: 3px;
 }
 
